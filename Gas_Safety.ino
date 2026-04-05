@@ -72,7 +72,7 @@ void loop() {
   if (gasValue > threshold) {
     digitalWrite(ledPin, HIGH); 
     
-    // Buzzer beeping logic (Tít... Tít...)
+    // Buzzer beeping logic
     digitalWrite(buzzerPin, HIGH);
     delay(200);                   // Beep for 0.2s
     digitalWrite(buzzerPin, LOW);
